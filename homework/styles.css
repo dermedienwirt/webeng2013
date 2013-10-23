@@ -1,0 +1,232 @@
+.body{
+	background-color: #CCCCCC;
+}
+
+/* Schrift, zab */
+
+.h1{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #333333;
+	font-weight: normal;
+	font-style: normal;
+}
+.h1blue{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #06C;
+	font-weight: bold;
+	font-style: normal;
+}
+.h1green{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #390;
+	font-weight: bold;
+	font-style: normal;
+}
+.subline{
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+.zab_kl{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: smaller;
+	font-style: normal;
+	line-height: 5px;
+}
+.fliestext{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	font-variant: normal;
+	text-transform: none;
+}
+.fliestextheader{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	font-variant: normal;
+	text-transform: none;
+}
+.untertext{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	font-variant: normal;
+	text-transform: none;
+	margin-left: 20px;
+}
+.line{
+	line-height:2px;   
+}
+.textlink{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+.textlink a:link{
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.textlink a:visited{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+.textlink a:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #eddca8;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+.textlink a:active{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+
+/* Button Impressum*/
+
+.impressum{	
+	width:220px
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	font-weight: bold;
+	font-style:  normal;
+	text-decoration: none;
+	margin-left:5px;
+	vertical-align: middle;
+}
+.impressum a:link{
+	text-decoration: none;
+	color: #666666;
+	margin-left:0px;
+}
+.impressum a:visited{
+	color: #666666;
+	text-decoration: none;
+}
+.impressum a:hover{
+	color: #eddca8;	
+}
+.impressum a:active{
+	color: #666666;
+	alignment-adjust: middle;
+}
+
+/*Tabellen*/
+
+.overflow{overflow:auto; height:440px;}
+.tdgros{ width: 960px; height:600px; align:center; border: thin; border-style:solid; border-color:#666666;}
+.tdhead { width: 960px; height:114px; align:center; margin:auto }
+
+/*Navigation*/
+.tdnav { width: 960px; hight: 60px; }
+.tdnav_100 { width: 100px; hight: 64px; }
+.tdnav_medien { width: 68px; hight: 64px; }
+.tdnav_foto { width: 104px; hight: 64px; }
+.tdnav_social {
+	width: 49px;
+	hight: 189px;
+	top:100px;
+	left:12px;
+	position: relative;
+}
+
+/*Inhalt*/
+
+.tdinhalt{ width: 960px; height:390px; position: inherit;}
+.tdtxtinhalt{
+	width:660px;
+	height:330px;
+	position:relative;
+	top:10px;
+	left:0px;
+}
+
+/*Galerie*/
+
+.tdtxtinhaltgalerie{
+	width:660px;
+	height:400px;
+	position:relative;
+	top:0px;
+	left:30px;
+	overflow: hidden;
+	margin: 0px;
+	border:0px;
+}
+
+/* Footer*/
+.td_footer{ 
+	width:940px; height:37px;
+}
+.tdsubnav{
+	width:960px;
+	height:30px;
+	background-color:#96C5E7;
+	top:20px;
+}
+
+/* Subnavigation -- mal vorbereitet*/
+	
+.tdmenue{	
+	font-size: 14px;
+	line-height: normal;
+	font-weight: normal;
+	color:#2E598D;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-decoration: none;
+}
+.tdmenue a:link{
+	font-size: 14px;
+	text-decoration: none;
+	color: #2E598D;	
+}
+.tdmenue a:visited{
+	color: #2E598D;
+	text-decoration: none;
+}
+.tdmenue a:hover{
+	color: #53A4DF;
+	text-decoration: none;
+}
+.tdmenue a:active{
+	color: #2E598D;
+	text-decoration: none;
+}
